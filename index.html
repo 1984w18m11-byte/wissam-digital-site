@@ -1,1 +1,249 @@
-Wissam Digital
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <meta name="theme-color" content="#06182b" />
+  <meta name="description" content="وسام ديجيتال — تطوير مواقع وتطبيقات، تصميم إعلانات وهوية رقمية، وحلول رقمية للأعمال." />
+  <title>Wissam Digital | وسام ديجيتال</title>
+  <style>
+    :root{
+      --bg:#061321;--bg2:#0a2037;--navy:#06182b;--card:#0d2943;--card2:#102f4c;
+      --gold:#f5c86a;--gold2:#d69b31;--text:#f7f9fc;--muted:#b8c3cf;--line:rgba(255,255,255,.12);
+      --shadow:0 22px 60px rgba(0,0,0,.28)
+    }
+    *{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;font-family:system-ui,-apple-system,"Segoe UI",Tahoma,Arial,sans-serif;background:radial-gradient(circle at 88% 0%,#123d67 0,transparent 30%),linear-gradient(180deg,var(--bg),#071b2e 52%,#061321);color:var(--text)}
+    a{text-decoration:none;color:inherit}.wrap{width:min(1160px,92%);margin:auto}button,input,select,textarea{font:inherit}
+    header{position:sticky;top:0;z-index:30;background:rgba(6,19,33,.88);backdrop-filter:blur(16px);border-bottom:1px solid var(--line)}
+    nav{min-height:74px;display:flex;align-items:center;justify-content:space-between;gap:18px}.brand{display:flex;align-items:center;gap:12px}.mark{width:52px;height:45px;display:grid;place-items:center;position:relative;color:#07111d;font-weight:1000;font-size:20px;letter-spacing:-2px;transform:skew(-8deg);background:linear-gradient(135deg,#ffdf91,#c58b25);clip-path:polygon(0 0,100% 0,82% 100%,50% 64%,18% 100%)}.brand strong{display:block;font-size:17px;letter-spacing:.4px}.brand small{display:block;color:var(--muted);margin-top:2px}.links{display:flex;align-items:center;gap:18px;font-size:14px;color:#e4ebf2}.links a:hover{color:var(--gold)}.nav-actions{display:flex;gap:9px;align-items:center}.pill{border:1px solid rgba(245,200,106,.45);background:transparent;color:var(--text);padding:10px 14px;border-radius:12px;cursor:pointer}.pill.gold{background:linear-gradient(135deg,#f9dc91,#d69b31);color:#0d1721;border:0;font-weight:900}
+    .hero{padding:82px 0 60px}.hero-grid{display:grid;grid-template-columns:1.12fr .88fr;gap:44px;align-items:center}.eyebrow{display:inline-flex;gap:8px;align-items:center;color:var(--gold);font-weight:900;background:rgba(6,24,43,.96);border:1px solid rgba(245,200,106,.38);padding:11px 18px;border-radius:15px;box-shadow:0 12px 30px rgba(0,0,0,.16);position:relative;top:-6px}.eyebrow:before{content:"";width:24px;height:1px;background:var(--gold)}h1{font-size:clamp(30px,4.6vw,48px);line-height:1.14;margin:14px 0 20px;color:var(--gold);max-width:11ch}h1 span{color:inherit}.lead{font-size:clamp(17px,2vw,21px);line-height:1.95;color:#dce4eb;max-width:710px}.actions{display:flex;gap:12px;flex-wrap:wrap;margin-top:28px}.btn{padding:13px 19px;border-radius:13px;font-weight:900;border:1px solid var(--line);display:inline-flex;align-items:center;justify-content:center;gap:8px;cursor:pointer}.btn.primary{background:linear-gradient(135deg,#f8da8e,#d39b34);color:#101721;border:0}.btn.secondary{background:rgba(255,255,255,.035)}
+    .trust{display:grid;grid-template-columns:repeat(4,1fr);gap:10px;margin-top:26px}.trust-item{border-top:1px solid var(--line);padding:16px 4px;text-align:center}.trust-icon{font-size:24px;color:var(--gold)}.trust-item b{display:block;margin-top:6px;font-size:14px}.trust-item small{display:block;color:var(--muted);margin-top:3px}
+    .showcase{min-height:500px;border:1px solid rgba(255,255,255,.18);border-radius:32px;padding:22px;background:linear-gradient(160deg,#10365a,#071421 62%);box-shadow:var(--shadow);position:relative;overflow:hidden}.showcase:after{content:"";position:absolute;inset:auto -70px -90px auto;width:260px;height:260px;border-radius:50%;background:rgba(245,200,106,.12);filter:blur(15px)}.phone{width:min(300px,78%);margin:12px auto 0;border-radius:34px;border:7px solid #07111d;background:#0d2740;padding:10px;box-shadow:0 24px 55px rgba(0,0,0,.48);position:relative;z-index:2}.phone:before{content:"";display:block;width:82px;height:7px;border-radius:10px;background:#02070c;margin:2px auto 14px}.screen{height:365px;border-radius:25px;background:radial-gradient(circle at 50% 16%,rgba(245,200,106,.18),transparent 20%),linear-gradient(180deg,#123b62,#07192a);display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;padding:22px}.crescent{font-size:64px}.app-name{font-size:44px;font-weight:1000;color:var(--gold);margin-top:3px}.screen p{color:#d4dde6;line-height:1.8}.project-symbols{display:flex;justify-content:center;gap:13px;margin-top:16px;color:var(--gold);font-size:20px}.app-download{position:relative;z-index:3;display:flex;justify-content:center;gap:10px;flex-wrap:wrap;margin:18px auto 2px}.app-download .btn{width:min(300px,84%)}
+    section{padding:68px 0}.section-title{text-align:center;max-width:760px;margin:0 auto 32px}.section-title .kicker{color:var(--gold);font-weight:800;font-size:14px}.section-title h2{font-size:clamp(30px,4.2vw,42px);margin:8px 0 10px}.section-title p{color:var(--muted);line-height:1.8;margin:0}
+    .about{display:grid;grid-template-columns:1fr 1fr;gap:18px}.panel,.card{background:rgba(255,255,255,.045);border:1px solid var(--line);border-radius:20px}.panel{padding:26px}.panel h3{font-size:25px;margin:0 0 12px;color:var(--gold)}.panel p{color:#d8e0e7;line-height:1.95;margin:0}.values{display:grid;grid-template-columns:repeat(2,1fr);gap:12px}.value{padding:18px;border-radius:16px;background:rgba(255,255,255,.04);border:1px solid var(--line)}.value b{display:block;margin-bottom:5px}.value span{color:var(--muted);font-size:13px;line-height:1.7}
+    .cards{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}.card{padding:22px;transition:.2s transform,.2s border-color}.card:hover{transform:translateY(-3px);border-color:rgba(245,200,106,.38)}.icon{width:50px;height:50px;border-radius:14px;background:linear-gradient(135deg,#f8d98b,#d69b31);color:#102034;display:grid;place-items:center;font-size:23px;margin-bottom:17px;font-weight:900}.card h3{margin:0 0 9px;font-size:20px}.card p{color:var(--muted);line-height:1.85;margin:0}.service-link{display:inline-flex;margin-top:15px;color:var(--gold);font-weight:800;font-size:13px}
+    .projects{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}.project{padding:0;overflow:hidden;min-height:350px}.visual{height:190px;display:grid;place-items:center;background:radial-gradient(circle at 50% 30%,rgba(245,200,106,.20),transparent 29%),linear-gradient(145deg,#123e66,#081827);font-size:78px}.project-body{padding:22px}.project .tag{color:var(--gold);font-size:13px;font-weight:800}.project h3{font-size:24px;margin:8px 0}.project p{color:var(--muted);line-height:1.8;margin:0}.symbols{display:flex;gap:8px;margin-top:16px}.symbols span{width:36px;height:36px;border-radius:10px;border:1px solid rgba(245,200,106,.28);display:grid;place-items:center;color:var(--gold)}.project-download{margin-top:16px;width:100%}
+    .contact{background:linear-gradient(135deg,rgba(245,200,106,.12),rgba(255,255,255,.035));border:1px solid rgba(245,200,106,.27);border-radius:25px;padding:30px}.contact-grid{display:grid;grid-template-columns:.85fr 1.15fr;gap:24px;align-items:start}.contact h2{font-size:34px;margin:0 0 12px}.contact p{color:#d8e0e7;line-height:1.85}.channels{display:flex;gap:9px;flex-wrap:wrap;margin-top:20px}.channel{padding:10px 12px;border-radius:11px;border:1px solid var(--line);background:rgba(255,255,255,.035);font-size:13px;color:#e8edf2}.social-block{margin-top:22px}.social-title{font-weight:900;color:var(--gold);margin-bottom:10px}.social-links{display:flex;gap:10px;flex-wrap:wrap}.social-link{display:inline-flex;align-items:center;gap:8px;padding:11px 14px;border-radius:12px;border:1px solid rgba(245,200,106,.32);background:rgba(255,255,255,.035);font-size:13px;font-weight:800;transition:.2s}.social-link:hover{border-color:var(--gold);transform:translateY(-2px)}.social-link.pending{opacity:.45;cursor:default;pointer-events:none}.form{display:grid;gap:12px}.field{display:grid;gap:6px}.field label{font-size:13px;color:#e4ebf2}.field input,.field select,.field textarea{width:100%;background:#071a2d;color:var(--text);border:1px solid var(--line);border-radius:12px;padding:13px 14px;outline:none}.field textarea{min-height:120px;resize:vertical}.field input:focus,.field select:focus,.field textarea:focus{border-color:rgba(245,200,106,.62)}.form-actions{display:grid;grid-template-columns:1fr 1fr;gap:10px}.file-picker{position:relative;overflow:hidden}.file-picker input{position:absolute;inset:0;opacity:0;cursor:pointer;width:100%;height:100%}.file-status{font-size:12px;color:var(--muted);min-height:18px}.hint{font-size:12px;color:var(--muted);line-height:1.6}.notice{display:none;margin-top:10px;padding:11px 13px;border-radius:11px;background:rgba(245,200,106,.09);border:1px solid rgba(245,200,106,.23);color:#f7dfa9;font-size:13px}
+    footer{border-top:1px solid var(--line);padding:27px 0 36px;color:var(--muted);font-size:14px}.foot{display:flex;justify-content:space-between;gap:18px;flex-wrap:wrap}.footer-links{display:flex;gap:14px;flex-wrap:wrap}
+    [data-en]{display:none}body.en [data-ar]{display:none}body.en [data-en]{display:initial}body.en{direction:ltr}body.en .mark{transform:skew(-8deg)}
+    @media(max-width:900px){.links{display:none}.hero{padding-top:48px}.hero-grid,.about,.contact-grid{grid-template-columns:1fr}.showcase{max-width:520px;margin:auto;width:100%}.cards{grid-template-columns:1fr 1fr}.projects{grid-template-columns:1fr}.trust{grid-template-columns:1fr 1fr}}
+    @media(max-width:560px){.form-actions{grid-template-columns:1fr}.app-download{flex-direction:column}.app-download .btn{width:100%}nav{min-height:64px}.brand small{display:none}.brand strong{font-size:14px}.mark{width:43px;height:38px;font-size:17px}.pill{padding:9px 10px;font-size:12px}.nav-actions .gold{display:none}.hero{padding-bottom:35px}.eyebrow{padding:10px 14px;top:-2px}.cards{grid-template-columns:1fr}.values{grid-template-columns:1fr}.showcase{min-height:auto}.phone{width:84%}.screen{height:325px}.app-name{font-size:36px}}
+  </style>
+</head>
+<body>
+<header>
+  <div class="wrap">
+    <nav>
+      <a class="brand" href="#top" aria-label="Wissam Digital">
+        <div class="mark">WD</div>
+        <div><strong>WISSAM DIGITAL</strong><small data-ar>وسام ديجيتال</small><small data-en>Ideas into reality</small></div>
+      </a>
+      <div class="links">
+        <a href="#top"><span data-ar>الرئيسية</span><span data-en>Home</span></a>
+        <a href="#about"><span data-ar>من نحن</span><span data-en>About</span></a>
+        <a href="#services"><span data-ar>خدماتنا</span><span data-en>Services</span></a>
+        <a href="#projects"><span data-ar>مشاريعنا</span><span data-en>Projects</span></a>
+        <a href="#contact"><span data-ar>تواصل معنا</span><span data-en>Contact</span></a>
+      </div>
+      <div class="nav-actions">
+        <button class="pill" id="langBtn" type="button">English</button>
+        <a class="pill gold" href="#contact"><span data-ar>تواصل الآن</span><span data-en>Contact now</span></a>
+      </div>
+    </nav>
+  </div>
+</header>
+
+<main id="top">
+  <section class="hero">
+    <div class="wrap hero-grid">
+      <div>
+        <div class="eyebrow"><span data-ar>أهلاً بكم في وسام ديجيتال</span><span data-en>Welcome to Wissam Digital</span></div>
+        <h1 data-ar>أفكار رقمية <span>تتحول إلى واقع</span></h1>
+        <h1 data-en>Digital ideas <span>turned into reality</span></h1>
+        <p class="lead" data-ar>نطوّر مواقع وتطبيقات وواجهات رقمية، ونصمّم الإعلانات والمحتوى البصري للسوشال ميديا بهوية واضحة وتجربة استخدام عصرية.</p>
+        <p class="lead" data-en>We build websites, apps and digital interfaces, and create advertising and social-media visuals with a clear identity and modern user experience.</p>
+        <div class="actions">
+          <a class="btn primary" href="#projects"><span data-ar>استكشف مشاريعنا</span><span data-en>Explore our projects</span> ←</a>
+          <a class="btn secondary" href="#contact">💬 <span data-ar>تواصل معنا</span><span data-en>Contact us</span></a>
+        </div>
+        <div class="trust" aria-label="مميزات وسام ديجيتال">
+          <div class="trust-item"><div class="trust-icon">◈</div><b data-ar>تصميم واضح</b><b data-en>Clear design</b><small data-ar>هوية بصرية مرتبة</small><small data-en>Consistent visual identity</small></div>
+          <div class="trust-item"><div class="trust-icon">⚡</div><b data-ar>أداء سريع</b><b data-en>Fast performance</b><small data-ar>مهيأ للهاتف</small><small data-en>Mobile ready</small></div>
+          <div class="trust-item"><div class="trust-icon">◉</div><b data-ar>دعم مباشر</b><b data-en>Direct support</b><small data-ar>التواصل عبر واتساب</small><small data-en>WhatsApp communication</small></div>
+          <div class="trust-item"><div class="trust-icon">文</div><b data-ar>لغتان</b><b data-en>Two languages</b><small data-ar>عربي وEnglish</small><small data-en>Arabic & English</small></div>
+        </div>
+      </div>
+      <div class="showcase" aria-label="معاينة مشروع الأفق">
+        <div class="phone">
+          <div class="screen">
+            <div class="crescent">🌙</div>
+            <div class="app-name">الأفق</div>
+            <p>الأفق — al aufuq<br><span data-ar>تقويم عربي • مواقيت الصلاة</span><span data-en>Arabic calendar • Prayer times</span></p>
+            <div class="project-symbols"><span>▦</span><span>◷</span><span>⌖</span><span>♪</span></div>
+          </div>
+        </div>
+        <div class="app-download">
+          <button class="btn secondary trial-toggle" type="button" data-target="trialDownloadHero">📱 <span data-ar>النسخة التجريبية</span><span data-en>Trial version</span></button>
+          <a id="trialDownloadHero" class="btn primary trial-direct" href="https://github.com/1984w18m11-byte/alofok-app/releases/download/v1.0.13/Al-Ufuq-Trial-1.0.13.apk" hidden>⬇ <span data-ar>اضغط هنا لتحميل النسخة التجريبية 1.0.13</span><span data-en>Tap here to download Trial 1.0.13</span></a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="about">
+    <div class="wrap">
+      <div class="section-title"><div class="kicker" data-ar>من نحن</div><div class="kicker" data-en>About us</div><h2 data-ar>وسام ديجيتال</h2><h2 data-en>Wissam Digital</h2><p data-ar>نعمل على تحويل الأفكار إلى منتجات رقمية واضحة وعملية، من الفكرة والواجهة إلى التنفيذ والتطوير.</p><p data-en>We turn ideas into clear, practical digital products, from concept and interface to implementation and improvement.</p></div>
+      <div class="about">
+        <div class="panel"><h3 data-ar>ما الذي نقدمه؟</h3><h3 data-en>What do we do?</h3><p data-ar>نركز على بناء المواقع والتطبيقات والواجهات، وتصميم الإعلانات الثابتة ومحتوى السوشال ميديا والهوية البصرية. لا نعرض خدمة إنتاج الفيديو حاليًا حتى نضمن مستوى يليق باسم وسام ديجيتال.</p><p data-en>We focus on websites, apps, interfaces, static advertising, social-media visuals and brand identity. Video production is not offered at this time so we can maintain the quality standard of Wissam Digital.</p></div>
+        <div class="values">
+          <div class="value"><b data-ar>وضوح</b><b data-en>Clarity</b><span data-ar>العميل يعرف المطلوب وما الذي سيحصل عليه.</span><span data-en>The client knows exactly what is being delivered.</span></div>
+          <div class="value"><b data-ar>بساطة</b><b data-en>Simplicity</b><span data-ar>واجهات مفهومة بدون تعقيد غير ضروري.</span><span data-en>Understandable interfaces without needless complexity.</span></div>
+          <div class="value"><b data-ar>هوية</b><b data-en>Identity</b><span data-ar>تصميم يحافظ على شكل المشروع وعلامته.</span><span data-en>Design that preserves the project's brand.</span></div>
+          <div class="value"><b data-ar>تواصل</b><b data-en>Communication</b><span data-ar>قناة مباشرة لترتيب الطلبات والمتابعة.</span><span data-en>A direct channel for requests and follow-up.</span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="services">
+    <div class="wrap">
+      <div class="section-title"><div class="kicker" data-ar>خدماتنا</div><div class="kicker" data-en>Services</div><h2 data-ar>خدمات رقمية عملية</h2><h2 data-en>Practical digital services</h2><p data-ar>اختر الخدمة المناسبة، وبعدها أرسل تفاصيل طلبك مباشرة عبر واتساب.</p><p data-en>Select a service, then send the details directly through WhatsApp.</p></div>
+      <div class="cards">
+        <div class="card"><div class="icon">&lt;/&gt;</div><h3 data-ar>تطوير المواقع</h3><h3 data-en>Web development</h3><p data-ar>مواقع تعريفية وتجارية وصفحات هبوط متجاوبة مع الهاتف والكمبيوتر.</p><p data-en>Business websites and landing pages optimized for mobile and desktop.</p><a class="service-link servicePick" data-service="تطوير موقع" href="#contact">اطلب الخدمة ←</a></div>
+        <div class="card"><div class="icon">▣</div><h3 data-ar>تطبيقات الجوال</h3><h3 data-en>Mobile apps</h3><p data-ar>تصميم وتطوير تطبيقات وواجهات عملية لأندرويد وiOS حسب متطلبات المشروع.</p><p data-en>Design and development of practical Android and iOS apps and interfaces.</p><a class="service-link servicePick" data-service="تطبيق جوال" href="#contact">اطلب الخدمة ←</a></div>
+        <div class="card"><div class="icon">✦</div><h3 data-ar>تصميم الإعلانات</h3><h3 data-en>Ad design</h3><p data-ar>إعلانات ثابتة للمطاعم والكوفيات والمنتجات والخدمات والشركات.</p><p data-en>Static ads for restaurants, cafes, products, services and businesses.</p><a class="service-link servicePick" data-service="تصميم إعلان" href="#contact">اطلب الخدمة ←</a></div>
+        <div class="card"><div class="icon">#</div><h3 data-ar>تصاميم السوشال ميديا</h3><h3 data-en>Social media design</h3><p data-ar>منشورات وستوري وأغلفة بتصميم موحد يناسب فيسبوك وإنستغرام وتيك توك ويوتيوب.</p><p data-en>Posts, stories and covers for Facebook, Instagram, TikTok and YouTube.</p><a class="service-link servicePick" data-service="تصاميم سوشال ميديا" href="#contact">اطلب الخدمة ←</a></div>
+        <div class="card"><div class="icon">W</div><h3 data-ar>الهوية والواجهات</h3><h3 data-en>Brand & UI design</h3><p data-ar>هوية بصرية وواجهات وصفحات تسويقية تحافظ على مظهر المشروع.</p><p data-en>Brand identity, interfaces and marketing pages with a consistent look.</p><a class="service-link servicePick" data-service="هوية وواجهات" href="#contact">اطلب الخدمة ←</a></div>
+        <div class="card"><div class="icon">↗</div><h3 data-ar>حلول رقمية للأعمال</h3><h3 data-en>Business digital solutions</h3><p data-ar>ترتيب الحضور الرقمي، صفحات الطلب، الاشتراكات، ونقاط التواصل المناسبة للمشروع.</p><p data-en>Digital presence, request pages, subscriptions and contact workflows.</p><a class="service-link servicePick" data-service="حلول رقمية للأعمال" href="#contact">اطلب الخدمة ←</a></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="projects">
+    <div class="wrap">
+      <div class="section-title"><div class="kicker" data-ar>مشاريعنا</div><div class="kicker" data-en>Projects</div><h2 data-ar>أبرز أعمال وسام ديجيتال</h2><h2 data-en>Selected Wissam Digital work</h2></div>
+      <div class="projects">
+        <article class="card project"><div class="visual">🌙</div><div class="project-body"><div class="tag" data-ar>تطبيق</div><div class="tag" data-en>Application</div><h3>الأفق — al aufuq</h3><p data-ar>تقويم عربي ومواقيت الصلاة وخصائص رقمية مرتبطة بالوقت والموقع.</p><p data-en>Arabic calendar, prayer times and time/location based digital features.</p><div class="symbols"><span>▦</span><span>◷</span><span>⌖</span><span>♪</span></div><button class="btn secondary project-download trial-toggle" type="button" data-target="trialDownloadProject">📱 <span data-ar>النسخة التجريبية 1.0.13</span><span data-en>Trial 1.0.13</span></button><a id="trialDownloadProject" class="btn primary project-download trial-direct" href="https://github.com/1984w18m11-byte/alofok-app/releases/download/v1.0.13/Al-Ufuq-Trial-1.0.13.apk" hidden>⬇ <span data-ar>اضغط هنا لتحميل النسخة التجريبية 1.0.13</span><span data-en>Tap here to download Trial 1.0.13</span></a></div></article>
+        <article class="card project"><div class="visual">📚</div><div class="project-body"><div class="tag" data-ar>تعليم</div><div class="tag" data-en>Education</div><h3 data-ar>تطبيق تعليمي للأطفال</h3><h3 data-en>Children's learning app</h3><p data-ar>تعليم الحروف والأرقام ومحتوى تفاعلي مبسط للأطفال.</p><p data-en>Letters, numbers and simplified interactive learning content for children.</p><div class="symbols"><span>أ</span><span>A</span><span>1</span><span>★</span></div></div></article>
+        <article class="card project"><div class="visual">◆</div><div class="project-body"><div class="tag" data-ar>خدمات رقمية</div><div class="tag" data-en>Digital services</div><h3>Wissam Digital</h3><p data-ar>منصة موحدة لعرض الخدمات والمشاريع واستقبال طلبات العملاء.</p><p data-en>A unified platform for services, projects and customer requests.</p><div class="symbols"><span>W</span><span>⌘</span><span>✦</span><span>↗</span></div></div></article>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <div class="wrap">
+      <div class="contact">
+        <div class="contact-grid">
+          <div>
+            <h2 data-ar>ابدأ طلبك</h2><h2 data-en>Start your request</h2>
+            <p data-ar>اكتب موضوع طلبك وما الذي تحتاجه، ثم أرسله كمراسلة. جميع قنوات التواصل مخصصة للرسائل فقط، بدون اتصال هاتفي.</p>
+            <p data-en>Write what you need and send it as a message. All contact channels are messaging-only, with no phone calls.</p>
+            <div class="social-block">
+              <div class="social-title" data-ar>صفحات وسام ديجيتال</div><div class="social-title" data-en>Wissam Digital pages</div>
+              <div class="social-links">
+                <a class="social-link" href="https://www.facebook.com/share/19qTGLXEUC/" target="_blank" rel="noopener">💬 Facebook</a>
+                <a class="social-link" href="https://www.instagram.com/wissamdigital2?utm_source=qr&amp;stkn=bG9sdmpjeHJzd3Q1" target="_blank" rel="noopener">💬 Instagram</a>
+                <a class="social-link" href="https://www.tiktok.com/@wissamdigital" target="_blank" rel="noopener">💬 TikTok</a>
+                <a class="social-link" href="https://www.youtube.com/@wissamdigital" target="_blank" rel="noopener">💬 YouTube</a>
+                <a class="social-link" href="#requestForm">💬 WhatsApp</a>
+              </div>
+              <p class="hint" data-ar>راسلنا عبر أي صفحة من الصفحات أعلاه. التواصل بالمراسلة فقط.</p><p class="hint" data-en>Message us through any page above. Messaging only.</p>
+            </div>
+            <p class="hint" data-ar>لا توجد أرقام بطاقات أو حسابات دفع منشورة في هذا الموقع.</p><p class="hint" data-en>No payment card or bank account numbers are published on this website.</p>
+          </div>
+          <form class="form" id="requestForm">
+            <div class="field"><label data-ar>الموضوع</label><label data-en>Subject</label><input id="subject" required placeholder="مثال: تصميم إعلان لمطعم" /></div>
+            <div class="field"><label data-ar>شنو المطلوب؟</label><label data-en>What do you need?</label><textarea id="details" required placeholder="اكتب المطلوب باختصار..."></textarea></div>
+            <div class="form-actions">
+              <button class="btn primary" type="submit">💬 <span data-ar>إرسال رسالة عبر واتساب</span><span data-en>Send WhatsApp message</span></button>
+              <label class="btn secondary file-picker">📎 <span data-ar>إرفاق صورة أو ملف</span><span data-en>Attach image or file</span><input id="attachments" type="file" multiple accept="image/*,.pdf,.doc,.docx,.txt,.zip,.rar" /></label>
+            </div>
+            <div class="file-status" id="fileStatus"></div>
+            <div class="notice" id="contactNotice"></div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+
+<footer>
+  <div class="wrap foot">
+    <div>© 2026 وسام محمد — Wissam Digital | جميع حقوق الطبع والنشر محفوظة</div>
+    <div class="footer-links"><a href="#about">من نحن</a><a href="#services">خدماتنا</a><a href="#projects">مشاريعنا</a><a href="#contact">تواصل معنا</a></div>
+  </div>
+</footer>
+
+<script>
+  // رقم واتساب الأعمال لا يظهر في واجهة الموقع. عند إضافته هنا يفتح الزر المحادثة مباشرة.
+  const WHATSAPP_NUMBER = '';
+
+  const body=document.body;
+  const langBtn=document.getElementById('langBtn');
+  langBtn.addEventListener('click',()=>{
+    const en=body.classList.toggle('en');
+    document.documentElement.lang=en?'en':'ar';
+    document.documentElement.dir=en?'ltr':'rtl';
+    langBtn.textContent=en?'العربية':'English';
+  });
+
+  document.querySelectorAll('.servicePick').forEach(link=>link.addEventListener('click',()=>{
+    document.getElementById('subject').value=link.dataset.service||'';
+  }));
+
+  const params=new URLSearchParams(location.search);
+  function detectSource(){
+    const explicit=(params.get('src')||params.get('source')||'').trim();
+    if(explicit)return explicit;
+    const ref=document.referrer.toLowerCase();
+    if(ref.includes('facebook.com')||ref.includes('fb.com'))return 'Facebook';
+    if(ref.includes('instagram.com'))return 'Instagram';
+    if(ref.includes('tiktok.com'))return 'TikTok';
+    if(ref.includes('youtube.com')||ref.includes('youtu.be'))return 'YouTube';
+    return 'Website';
+  }
+
+  const attachments=document.getElementById('attachments');
+  const fileStatus=document.getElementById('fileStatus');
+  attachments.addEventListener('change',()=>{
+    const files=[...attachments.files];
+    if(!files.length){ fileStatus.textContent=''; return; }
+    fileStatus.textContent=body.classList.contains('en')
+      ? `${files.length} file(s) selected: ${files.map(f=>f.name).join(', ')}`
+      : `تم اختيار ${files.length} ملف: ${files.map(f=>f.name).join('، ')}`;
+  });
+
+  document.querySelectorAll('.trial-toggle').forEach(btn=>btn.addEventListener('click',()=>{
+    const target=document.getElementById(btn.dataset.target);
+    if(target) target.hidden=false;
+  }));
+
+  document.getElementById('requestForm').addEventListener('submit',e=>{
+    e.preventDefault();
+    const subject=document.getElementById('subject').value.trim();
+    const details=document.getElementById('details').value.trim();
+    const source=detectSource();
+    const msg=`مرحباً وسام ديجيتال 👋\nلدي طلب جديد\nالموضوع: ${subject}\nالمطلوب: ${details}\nالمصدر: ${source}`;
+    const target=WHATSAPP_NUMBER
+      ? `https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent(msg)}`
+      : `https://wa.me/?text=${encodeURIComponent(msg)}`;
+    const notice=document.getElementById('contactNotice');
+    const files=[...attachments.files];
+    if(files.length && navigator.share && (!navigator.canShare || navigator.canShare({files}))){
+      notice.style.display='block';
+      notice.textContent=body.classList.contains('en')
+        ? 'Choose WhatsApp from the share sheet to send the selected files with your message.'
+        : 'اختَر واتساب من نافذة المشاركة لإرسال الملفات المختارة مع رسالتك.';
+      navigator.share({title:subject,text:msg,files}).catch(()=>{});
+      return;
+    }
+    notice.style.display='block';
+    notice.textContent=files.length
+      ? (body.classList.contains('en') ? 'WhatsApp will open. Attach the selected files manually from your phone.' : 'سيفتح واتساب. أرفق الملفات المختارة يدويًا من الهاتف إذا لم تظهر نافذة المشاركة.')
+      : (body.classList.contains('en') ? 'WhatsApp will open to send your message.' : 'سيتم فتح واتساب لإرسال رسالتك.');
+    location.href=target;
+  });
+</script>
+</body>
+</html>
