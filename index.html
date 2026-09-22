@@ -7,6 +7,7 @@
   <meta name="description" content="وسام ديجيتال — تطوير مواقع وتطبيقات، تصميم إعلانات وهوية رقمية، وحلول رقمية للأعمال." />
   <title>Wissam Digital | وسام ديجيتال</title>
   <style>
+    [hidden]{display:none!important}
     :root{
       --bg:#061321;--bg2:#0a2037;--navy:#06182b;--card:#0d2943;--card2:#102f4c;
       --gold:#f5c86a;--gold2:#d69b31;--text:#f7f9fc;--muted:#b8c3cf;--line:rgba(255,255,255,.12);
@@ -78,13 +79,13 @@
           <div class="screen">
             <div class="crescent">🌙</div>
             <div class="app-name">الأفق</div>
-            <p>الأفق — al aufuq<br><span data-ar>تقويم عربي • مواقيت الصلاة</span><span data-en>Arabic calendar • Prayer times</span></p>
+            <p>الأفق — al ufuq<br><span data-ar>تقويم عربي • مواقيت الصلاة</span><span data-en>Arabic calendar • Prayer times</span></p>
             <div class="project-symbols"><span>▦</span><span>◷</span><span>⌖</span><span>♪</span></div>
           </div>
         </div>
         <div class="app-download">
-          <button class="btn secondary trial-toggle" type="button" data-target="trialDownloadHero">📱 <span data-ar>النسخة التجريبية</span><span data-en>Trial version</span></button>
-          <a id="trialDownloadHero" class="btn primary trial-direct" href="https://github.com/1984w18m11-byte/alofok-app/releases/download/v1.0.13/Al-Ufuq-Trial-1.0.13.apk" hidden>⬇ <span data-ar>اضغط هنا لتحميل النسخة التجريبية 1.0.13</span><span data-en>Tap here to download Trial 1.0.13</span></a>
+          <a class="btn primary trial-direct" data-download-app="alofok" href="https://wispy-salad-438b.wissamdigital11.workers.dev/download/alofok-trial">⬇ <span data-ar>تحميل الأفق</span><span data-en>Download al ufuq</span></a>
+          <a class="btn secondary chrome-download" data-chrome-download hidden><span data-ar>فتح في Chrome للتنزيل</span><span data-en>Open in Chrome to download al ufuq</span></a>
         </div>
       </div>
     </div>
@@ -123,7 +124,7 @@
     <div class="wrap">
       <div class="section-title"><div class="kicker" data-ar>مشاريعنا</div><div class="kicker" data-en>Projects</div><h2 data-ar>أبرز أعمال وسام ديجيتال</h2><h2 data-en>Selected Wissam Digital work</h2></div>
       <div class="projects">
-        <article class="card project"><div class="visual">🌙</div><div class="project-body"><div class="tag" data-ar>تطبيق</div><div class="tag" data-en>Application</div><h3>الأفق — al aufuq</h3><p data-ar>تقويم عربي ومواقيت الصلاة وخصائص رقمية مرتبطة بالوقت والموقع.</p><p data-en>Arabic calendar, prayer times and time/location based digital features.</p><div class="symbols"><span>▦</span><span>◷</span><span>⌖</span><span>♪</span></div><button class="btn secondary project-download trial-toggle" type="button" data-target="trialDownloadProject">📱 <span data-ar>النسخة التجريبية 1.0.13</span><span data-en>Trial 1.0.13</span></button><a id="trialDownloadProject" class="btn primary project-download trial-direct" href="https://github.com/1984w18m11-byte/alofok-app/releases/download/v1.0.13/Al-Ufuq-Trial-1.0.13.apk" hidden>⬇ <span data-ar>اضغط هنا لتحميل النسخة التجريبية 1.0.13</span><span data-en>Tap here to download Trial 1.0.13</span></a></div></article>
+        <article class="card project"><div class="visual">🌙</div><div class="project-body"><div class="tag" data-ar>تطبيق</div><div class="tag" data-en>Application</div><h3>الأفق — al ufuq</h3><p data-ar>تقويم عربي ومواقيت الصلاة وخصائص رقمية مرتبطة بالوقت والموقع.</p><p data-en>Arabic calendar, prayer times and time/location based digital features.</p><div class="symbols"><span>▦</span><span>◷</span><span>⌖</span><span>♪</span></div><a class="btn primary project-download trial-direct" data-download-app="alofok" href="https://wispy-salad-438b.wissamdigital11.workers.dev/download/alofok-trial">⬇ <span data-ar>تحميل الأفق</span><span data-en>Download al ufuq</span></a><a class="btn secondary chrome-download" data-chrome-download hidden><span data-ar>فتح في Chrome للتنزيل</span><span data-en>Open in Chrome to download al ufuq</span></a></div></article>
         <article class="card project"><div class="visual">📚</div><div class="project-body"><div class="tag" data-ar>تعليم</div><div class="tag" data-en>Education</div><h3 data-ar>تطبيق تعليمي للأطفال</h3><h3 data-en>Children's learning app</h3><p data-ar>تعليم الحروف والأرقام ومحتوى تفاعلي مبسط للأطفال.</p><p data-en>Letters, numbers and simplified interactive learning content for children.</p><div class="symbols"><span>أ</span><span>A</span><span>1</span><span>★</span></div></div></article>
         <article class="card project"><div class="visual">◆</div><div class="project-body"><div class="tag" data-ar>خدمات رقمية</div><div class="tag" data-en>Digital services</div><h3>Wissam Digital</h3><p data-ar>منصة موحدة لعرض الخدمات والمشاريع واستقبال طلبات العملاء.</p><p data-en>A unified platform for services, projects and customer requests.</p><div class="symbols"><span>W</span><span>⌘</span><span>✦</span><span>↗</span></div></div></article>
       </div>
@@ -204,6 +205,29 @@
     return 'Website';
   }
 
+  function getSessionId(){
+    try{
+      const key='wissam_digital_session_v1';
+      let id=sessionStorage.getItem(key);
+      if(!id){id=crypto.randomUUID?crypto.randomUUID():`${Date.now().toString(36)}-${Math.random().toString(36).slice(2)}`;sessionStorage.setItem(key,id)}
+      return id;
+    }catch(_){return `${Date.now().toString(36)}-${Math.random().toString(36).slice(2)}`}
+  }
+  const analyticsOrigin='https://wispy-salad-438b.wissamdigital11.workers.dev';
+  const analyticsSessionId=getSessionId();
+  const analyticsSource=detectSource();
+  try{fetch(`${analyticsOrigin}/api/track`,{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({event:'page_view',path:location.pathname,source:analyticsSource,sessionId:analyticsSessionId}),keepalive:true}).catch(()=>{})}catch(_){}
+  const trackedDownloadUrl=()=>`${analyticsOrigin}/download/alofok-trial?${new URLSearchParams({sid:analyticsSessionId,src:analyticsSource})}`;
+  document.querySelectorAll('[data-download-app="alofok"]').forEach(link=>{link.href=trackedDownloadUrl()});
+  const inAppBrowser=/(FBAN|FBAV|Instagram|TikTok|musical_ly|BytedanceWebview)/i.test(navigator.userAgent||'');
+  if(inAppBrowser&&/Android/i.test(navigator.userAgent||'')){
+    document.querySelectorAll('[data-chrome-download]').forEach(link=>{
+      const httpsUrl=trackedDownloadUrl(),parsed=new URL(httpsUrl);
+      link.hidden=false;
+      link.href=`intent://${parsed.host}${parsed.pathname}${parsed.search}#Intent;scheme=https;package=com.android.chrome;S.browser_fallback_url=${encodeURIComponent(httpsUrl)};end`;
+    });
+  }
+
   const attachments=document.getElementById('attachments');
   const fileStatus=document.getElementById('fileStatus');
   attachments.addEventListener('change',()=>{
@@ -213,11 +237,6 @@
       ? `${files.length} file(s) selected: ${files.map(f=>f.name).join(', ')}`
       : `تم اختيار ${files.length} ملف: ${files.map(f=>f.name).join('، ')}`;
   });
-
-  document.querySelectorAll('.trial-toggle').forEach(btn=>btn.addEventListener('click',()=>{
-    const target=document.getElementById(btn.dataset.target);
-    if(target) target.hidden=false;
-  }));
 
   document.getElementById('requestForm').addEventListener('submit',e=>{
     e.preventDefault();
