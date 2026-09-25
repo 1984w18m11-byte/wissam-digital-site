@@ -84,9 +84,10 @@
           </div>
         </div>
         <div class="app-download">
-          <a class="btn primary trial-direct" data-download-app="alofok" href="https://wispy-salad-438b.wissamdigital11.workers.dev/download/alofok-trial">⬇ <span data-ar>تحميل الأفق</span><span data-en>Download al ufuq</span></a>
-          <a class="btn secondary chrome-download" data-chrome-download hidden><span data-ar>فتح في Chrome للتنزيل</span><span data-en>Open in Chrome to download al ufuq</span></a>
-          <div class="hint"><span data-ar>الأفق — الإصدار 1.0.13 للأندرويد APK</span><span data-en>al ufuq — version 1.0.13 for Android APK</span></div>
+          <a class="btn primary direct-apk" data-download-app="alofok" href="https://github.com/1984w18m11-byte/alofok-app/releases/download/v1.0.19/Al-Ufuq-Trial-1.0.19.apk">⬇ <span data-ar>تحميل الأفق</span><span data-en>Download al ufuq</span></a>
+          <a class="btn secondary direct-apk" data-download-app="alufuq-plus" href="https://github.com/1984w18m11-byte/alofok-app/releases/download/v1.0.8/Al-Ufuq-Plus-1.0.8.apk">★ <span data-ar>تحميل الأفق Plus</span><span data-en>Download al ufuq Plus</span></a>
+          <div class="hint"><span data-ar>الأفق التجريبي 1.0.19 للأندرويد APK</span><span data-en>al ufuq Trial 1.0.19 for Android APK</span></div>
+          <div class="hint"><span data-ar>نسخة Plus تعمل فقط بعد تثبيت النسخة التجريبية وطلب التفعيل والموافقة من داخل الأفق.</span><span data-en>Plus works only after installing Trial and completing activation approval inside al ufuq.</span></div>
         </div>
       </div>
     </div>
@@ -125,7 +126,7 @@
     <div class="wrap">
       <div class="section-title"><div class="kicker" data-ar>مشاريعنا</div><div class="kicker" data-en>Projects</div><h2 data-ar>أبرز أعمال وسام ديجيتال</h2><h2 data-en>Selected Wissam Digital work</h2></div>
       <div class="projects">
-        <article class="card project"><div class="visual">🌙</div><div class="project-body"><div class="tag" data-ar>تطبيق</div><div class="tag" data-en>Application</div><h3>الأفق — al ufuq</h3><p data-ar>تقويم عربي ومواقيت الصلاة وخصائص رقمية مرتبطة بالوقت والموقع.</p><p data-en>Arabic calendar, prayer times and time/location based digital features.</p><div class="symbols"><span>▦</span><span>◷</span><span>⌖</span><span>♪</span></div><a class="btn primary project-download trial-direct" data-download-app="alofok" href="https://wispy-salad-438b.wissamdigital11.workers.dev/download/alofok-trial">⬇ <span data-ar>تحميل الأفق</span><span data-en>Download al ufuq</span></a><a class="btn secondary chrome-download" data-chrome-download hidden><span data-ar>فتح في Chrome للتنزيل</span><span data-en>Open in Chrome to download al ufuq</span></a></div></article>
+        <article class="card project"><div class="visual">🌙</div><div class="project-body"><div class="tag" data-ar>تطبيق</div><div class="tag" data-en>Application</div><h3>الأفق — al ufuq</h3><p data-ar>تقويم عربي ومواقيت الصلاة وخصائص رقمية مرتبطة بالوقت والموقع.</p><p data-en>Arabic calendar, prayer times and time/location based digital features.</p><div class="symbols"><span>▦</span><span>◷</span><span>⌖</span><span>♪</span></div><a class="btn primary project-download direct-apk" data-download-app="alofok" href="https://github.com/1984w18m11-byte/alofok-app/releases/download/v1.0.19/Al-Ufuq-Trial-1.0.19.apk">⬇ <span data-ar>تحميل الأفق</span><span data-en>Download al ufuq</span></a><a class="btn secondary project-download direct-apk" data-download-app="alufuq-plus" href="https://github.com/1984w18m11-byte/alofok-app/releases/download/v1.0.8/Al-Ufuq-Plus-1.0.8.apk">★ <span data-ar>تحميل الأفق Plus</span><span data-en>Download al ufuq Plus</span></a><p class="hint" data-ar>Plus مخصصة للأجهزة التي تم تفعيلها والموافقة عليها من داخل النسخة التجريبية.</p><p class="hint" data-en>Plus is for devices activated and approved from the Trial edition.</p></div></article>
         <article class="card project"><div class="visual">📚</div><div class="project-body"><div class="tag" data-ar>تعليم</div><div class="tag" data-en>Education</div><h3 data-ar>تطبيق تعليمي للأطفال</h3><h3 data-en>Children's learning app</h3><p data-ar>تعليم الحروف والأرقام ومحتوى تفاعلي مبسط للأطفال.</p><p data-en>Letters, numbers and simplified interactive learning content for children.</p><div class="symbols"><span>أ</span><span>A</span><span>1</span><span>★</span></div></div></article>
         <article class="card project"><div class="visual">◆</div><div class="project-body"><div class="tag" data-ar>خدمات رقمية</div><div class="tag" data-en>Digital services</div><h3>Wissam Digital</h3><p data-ar>منصة موحدة لعرض الخدمات والمشاريع واستقبال طلبات العملاء.</p><p data-en>A unified platform for services, projects and customer requests.</p><div class="symbols"><span>W</span><span>⌘</span><span>✦</span><span>↗</span></div></div></article>
       </div>
@@ -218,22 +219,20 @@
   const analyticsSessionId=getSessionId();
   const analyticsSource=detectSource();
   try{fetch(`${analyticsOrigin}/api/track`,{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({event:'page_view',path:location.pathname,source:analyticsSource,sessionId:analyticsSessionId}),keepalive:true}).catch(()=>{})}catch(_){}
-  const trackedDownloadUrl=()=>`${analyticsOrigin}/download/alofok-trial?${new URLSearchParams({sid:analyticsSessionId,src:analyticsSource})}`;
-  document.querySelectorAll('[data-download-app="alofok"]').forEach(link=>{link.href=trackedDownloadUrl()});
   const inAppBrowser=/(FBAN|FBAV|FB_IAB|Instagram|TikTok|musical_ly|Bytedance|zhiliaoapp)/i.test(navigator.userAgent||'');
-  if(inAppBrowser&&/Android/i.test(navigator.userAgent||'')){
-    document.querySelectorAll('[data-chrome-download]').forEach(link=>{
-      const httpsUrl=trackedDownloadUrl(),parsed=new URL(httpsUrl);
-      const intentUrl=`intent://${parsed.host}${parsed.pathname}${parsed.search}#Intent;scheme=https;package=com.android.chrome;S.browser_fallback_url=${encodeURIComponent(httpsUrl)};end`;
-      link.hidden=false;
-      link.href=intentUrl;
-      link.addEventListener('click',event=>{
+  document.querySelectorAll('[data-download-app]').forEach(link=>{
+    link.addEventListener('click',event=>{
+      const app=link.dataset.downloadApp||'alofok';
+      try{fetch(`${analyticsOrigin}/api/track`,{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({event:'download_click',path:location.pathname,source:analyticsSource,sessionId:analyticsSessionId,app}),keepalive:true}).catch(()=>{})}catch(_){}
+      if(inAppBrowser&&/Android/i.test(navigator.userAgent||'')){
         event.preventDefault();
+        const httpsUrl=link.href,parsed=new URL(httpsUrl);
+        const intentUrl=`intent://${parsed.host}${parsed.pathname}${parsed.search}#Intent;scheme=https;package=com.android.chrome;S.browser_fallback_url=${encodeURIComponent(httpsUrl)};end`;
         window.location.href=intentUrl;
         setTimeout(()=>{if(document.visibilityState==='visible')window.location.href=httpsUrl},1400);
-      });
+      }
     });
-  }
+  });
 
   const attachments=document.getElementById('attachments');
   const fileStatus=document.getElementById('fileStatus');
