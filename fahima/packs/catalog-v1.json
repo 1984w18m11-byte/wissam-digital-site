@@ -1,0 +1,39 @@
+{
+  "schema": 1,
+  "catalogVersion": "1.0.0",
+  "planVersion": "31-v1",
+  "installOrder": [
+    "brain-main",
+    "plan-31",
+    "foundation-31"
+  ],
+  "packs": [
+    {
+      "id": "brain-main",
+      "kind": "file",
+      "required": true,
+      "order": 1,
+      "url": "https://huggingface.co/tensorblock/Qwen2.5-0.5B-Instruct-GGUF/resolve/main/Qwen2.5-0.5B-Instruct-Q3_K_M.gguf?download=true",
+      "target": "brain/qwen2.5-0.5b-instruct.gguf",
+      "sha256": "b8cd24438ac853e76935965776bd974730cedbee06b2982a0e584c38e9ef7762",
+      "minBytes": 350000000,
+      "license": "Apache-2.0-base-model"
+    },
+    {
+      "id": "plan-31",
+      "kind": "json",
+      "required": true,
+      "order": 2,
+      "url": "https://raw.githubusercontent.com/1984w18m11-byte/wissam-digital-site/main/fahima/packs/31-plan-v1.json",
+      "target": "core/31-plan-v1.json"
+    },
+    {
+      "id": "foundation-31",
+      "kind": "json",
+      "required": true,
+      "order": 3,
+      "url": "https://raw.githubusercontent.com/1984w18m11-byte/wissam-digital-site/main/fahima/packs/foundation-v1.json",
+      "target": "packs/foundation-v1.json"
+    }
+  ]
+}
