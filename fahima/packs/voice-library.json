@@ -1,0 +1,17 @@
+{
+  "id": "voice",
+  "version": "1.0.0",
+  "type": "seed-library",
+  "name": "Fahima Voice Library",
+  "localEngines": [
+    "Android SpeechRecognizer",
+    "Android TextToSpeech"
+  ],
+  "profiles": [
+    "ar-IQ calm",
+    "ar-IQ natural",
+    "ar standard calm",
+    "ar standard natural"
+  ],
+  "policy": "Only device voices and explicitly licensed future voice packs may be activated."
+}
